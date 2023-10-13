@@ -16,13 +16,13 @@ h1 {
 }
 .container.squares:nth-child(-n+4) {
     background-image: url();
-    color: ;
-    float: ;
-    width: ;
-    height: ;
-    margin: ;
-    border: ;
-    border-radius: ;
+    color: #fff;
+    float:left;
+    width:100px;
+    height:100px;
+    margin:5px;
+    border: 1px solid black;
+    border-radius: 25;
     cursor: pointer;
 
 }
