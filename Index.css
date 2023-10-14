@@ -1,13 +1,14 @@
 body {
-    padding: 32px 0;
-  }
-  .column {
+    padding: 21px 7px 7px 21px;
+}
+
+.column {
     border-radius: 2px, 4px, 2px, 4px;
     border-style: dotted;
     border-color: rgb(179, 82, 209);
 }
 
-  .column .box {
+.column .box {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 700;
     font-size: large;
@@ -19,5 +20,4 @@ body {
     place-content: center;
     color: rgb(85, 72, 72);
     text-align: center;
-  }
-  
+}
