@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>Document</title>
 </head>
 
 <body>
-
     <div class="column">
         <div class="box">Test
 
@@ -26,6 +26,26 @@
         </div>
     </div>
     </div>
+    <style>
+        @keyframes slide-in {
+          from {
+            transform: translateX(-50%);
+            opacity: 0.75;
+          }
+          to {
+            transform: translateX(12%);
+            opacity: 7;
+          }
+        }
+      
+        .box {
+          animation: slide-in 2s;
+          animation-delay: 1s;
+          animation-duration: infinite;
+          animation-iteration-count: infinite;
+        }
+      </style>      
+
 
 </body>
 
