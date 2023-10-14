@@ -6,6 +6,7 @@ body {
     border-radius: 2px, 4px, 2px, 4px;
     border-style: dotted;
     border-color: rgb(179, 82, 209);
+    padding-top: 2px;
 }
 
 .column .box {
