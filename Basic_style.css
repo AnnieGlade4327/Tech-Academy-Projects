@@ -1,5 +1,5 @@
 body {
-    background-color: coral;
+    background-color: rgb(145, 108, 233);
 }
 
 h1 {
@@ -29,41 +29,29 @@ h1 {
     transition: .5s ease-in-out;
 }
 
-/*Select all squares paragraphs in array*/
-.squares:nth-child(1) {
-    font-family: "Arial, Helvetica, sans-serif";
+.squares:nth-child(-n+4) p {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.5em;
     font-weight: 900;
     text-align: center;
     margin: 0;
     text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+}
+/*Select all squares paragraphs in array*/
+.squares:nth-child(1) {
+    background: #4240ff;
 }
 
 .squares:nth-child(2) p {
-    font-family: "Arial, Helvetica, sans-serif";
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+    background: #d861af;
 }
 
 .squares:nth-child(3) p {
-    font-family: "Arial, Helvetica, sans-serif";
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+    background: #81205f;
 }
 
 .squares:nth-child(4) p {
-    font-family: "Arial, Helvetica, sans-serif";
-    font-size: 1.5em;
-    font-weight: 900;
-    text-align: center;
-    margin: 0;
-    text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
+    background: #77b800;
 }
 
 .container .squares:nth-child(-n+4):hover {
@@ -77,6 +65,32 @@ h1 {
     animation-timing-function: cubic-bezier(2.5, .2, .3, .2);
 }
 
+.container .squares:nth-child(-n+4):hover{
+    background-image: url("icons2.png");
+}
 .squares:nth-child(1) :hover {
     background: #13b4ff;
+}
+
+.squares:nth-child(2) :hover {
+    background: #d861af;
+}
+
+.squares:nth-child(3) :hover {
+    background: #81205f;
+}
+
+.squares:nth-child(4) :hover {
+    background: #77b800;
+}
+
+@keyframes race {
+    0%,
+    100% {
+        transform: translateY(0px);
+        background-image: url("icons2.png")
+    }
+    50% {
+        transform: translateY(300pxW);
+    }
 }
