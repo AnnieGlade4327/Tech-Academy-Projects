@@ -16,7 +16,7 @@ h1 {
     border-radius: 5%;
 }
 
-.container.squares:nth-child(-n+4) p {
+.container .squares:nth-child(-n+4) p {
     background-image: url("icons2.png");
     color: #fff;
     float: left;
@@ -66,8 +66,10 @@ h1 {
     text-shadow: 2px 1px 4px rgba(0, 0, 0, 0.8);
 }
 
-.container.container.squares:nth-child(-n+4):hover {
+.container .squares:nth-child(-n+4):hover {
     background-image: url("icons2.png");
+    width: 200;
+    height: 200;
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
