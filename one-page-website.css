@@ -1,0 +1,12 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: larger;
+    font-variant: inherit;
+}
+
+li {
+    display: inline;
+}
