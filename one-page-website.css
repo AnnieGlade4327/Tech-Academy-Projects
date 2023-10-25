@@ -1,12 +1,14 @@
 ul {
+    background-color: rgba(0, 0, 2, .7);
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    text-align: right;
+    margin: 1px;
+    padding: 7px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: larger;
+    color: aliceblue;
 }
 
 li {
-    color: seagreen;
     display: inline;
 }
